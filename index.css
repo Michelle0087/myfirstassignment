@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{list-style-type: none;
+    margin: 0;
+    
+}
+ul{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(55, 141, 144);
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+    box-shadow:azure;
+
+}
+.side li{
+    margin: 20px;
+    padding: 10px;
+    display: block;
+}
+div{
+    list-style-type: none;
+    margin: 0;
+}
+ol{list-style-type: none;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    height: 100px;
+    text-align: right;
+    margin-left: 25%;
+    border-bottom: 2px solid black;
+}
+.top li{
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+
+}
+.side li a{ padding: 10px;
+    border-bottom: 3px solid black;
+    display: block;
+
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+
+}
+li a.home{
+    background-color: blue;
+    color: white;
+}
+ li a:hover:not(.home){
+    text-decoration: underline;
+    background-color: coral;
+    color: gold;
+    
+}
+.top li a{
+    color: black;
+}
+footer{
+    background-color: darkslategray;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-left: 340px;
+
+}
+.footer{
+    text-align: center;
+    font-size: 30px;
+}
+.home{
+    background-color: darkgoldenrod;
+}
+.about{
+    background-color: darkorange;
+}
+.contact{
+    background-color: gold;
+}
+.page{
+    background-color: goldenrod;
+}
